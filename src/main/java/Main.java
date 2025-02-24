@@ -1,22 +1,11 @@
 import java.sql.Connection;
 import java.time.LocalDateTime;
 
-import cinema.CineartBelvedere;
-import cinema.Cinema;
-import cinema.CinemaPampulhaMall;
-import cinema.CinemarketDelRey;
-import cinema.Cineplex;
-import cinema.Filme;
-import cinema.Sala;
-import daos.CinemaDAO;
-import daos.FilmeDao;
-import daos.IngressoDAO;
-import daos.SalaDAO;
-import daos.SessaoDAO;
-import exceptions.FilmeNaoEncontradoException;
-import exceptions.NomeDuplicadoException;
-import exceptions.SalaOcupadaException;
+import cinema.*;
+import daos.*;
+import exceptions.*;
 import janelas.Janela;
+
 
 public class Main {
     public static void main(String[] args) {
